@@ -1,0 +1,334 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.elegant {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 3px;
+}
+.elegant .logo {
+  color: #000;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  padding: 20px;
+}
+.elegant .shop {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  height: 65px;
+}
+.elegant .shop .shops {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-left: 20%;
+  list-style: none;
+}
+
+.icone {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.icone .nabr {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  color: #F3F5F7;
+}
+
+.product {
+  background: #FFFFFF;
+  width: 80%;
+  height: 390px;
+  background-image: url(https://media.istockphoto.com/id/1446452511/photo/minimalist-interior-design-on-arch-wall-background-wall-mockup-concept-3d-render.jpg?s=1024x1024&w=is&k=20&c=4Kdw7iX-1M6SORLmKBNYz5qbCN2pUMBZrUikKzwrgq4=);
+  margin-left: 10%;
+}
+
+.blog {
+  margin-top: 50px;
+  width: 70%;
+  height: 30px;
+}
+
+.page {
+  display: flex;
+  width: 40%;
+  margin-left: 65%;
+  padding-top: 20px;
+  gap: 15px;
+}
+.page a {
+  color: #000;
+}
+
+.and {
+  margin-left: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 120px;
+}
+.and h4 {
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 58px;
+  letter-spacing: -1px;
+}
+.and p {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.AllBlog {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-left: 10%;
+}
+.AllBlog .all {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.AllBlog .all a {
+  color: #000;
+}
+.AllBlog .all p {
+  color: #807E7E;
+}
+.AllBlog .Squares {
+  display: flex;
+  gap: 20px;
+}
+.AllBlog .Squares .sortby {
+  border: none;
+  font-family: Inter;
+  font-size: 16px;
+  text-align: left;
+}
+.AllBlog .Squares .sss {
+  gap: 10px;
+  border: 2px solid yellowgreen;
+  display: flex;
+}
+.AllBlog .Squares .Square {
+  display: flex;
+  align-items: center;
+}
+
+.romss {
+  width: 100%;
+  height: 1319px;
+}
+
+.october {
+  width: 80%;
+  height: 1110px;
+  margin: auto;
+  gap: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.img_romm {
+  width: 30%;
+  height: 25%;
+}
+.img_romm img {
+  width: 100%;
+}
+.img_romm h6 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  text-align: left;
+}
+.img_romm h4 {
+  color: #6C7275;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.neds {
+  width: 10%;
+  height: 40px;
+  border-radius: 80px;
+  margin-left: 50%;
+  margin-top: 20px;
+  background-color: white;
+}
+
+.our {
+  background-image: url(/img/Paste\ image\ \(3\).png);
+  width: 100%;
+  height: 360px;
+  padding: 40px;
+}
+
+.emailes {
+  width: 540px;
+  height: 170px;
+  top: 101px;
+  left: 450px;
+  margin: auto;
+  text-align: center;
+}
+.emailes h1 {
+  font-family: Poppins;
+  font-size: 40px;
+  text-align: center;
+  color: #000;
+}
+
+h5 {
+  color: black;
+  font-family: Inter;
+  font-size: 18px;
+  align-items: center;
+  margin-left: 15%;
+  margin-top: 10px;
+  width: 70%;
+}
+
+.signs {
+  width: 70%;
+  height: 40px;
+  margin: 40px;
+  display: flex;
+  margin-left: 15%;
+  align-items: center;
+}
+
+.logine {
+  border-bottom: 1px solid gray;
+  display: flex;
+  text-align: center;
+  width: 120%;
+  gap: 10px;
+}
+.logine i {
+  margin-top: 8px;
+  display: flex;
+}
+.logine input {
+  border-bottom: 1px solid gray;
+  outline: none;
+  border: none;
+  background-color: whitesmoke;
+  display: flex;
+  margin-top: 10px;
+}
+.logine p {
+  font-family: Inter;
+  font-size: 16px;
+  margin-left: auto;
+  text-align: left;
+}
+
+.emailhr {
+  margin: 5px 0;
+}
+
+.giftt {
+  background-color: #000;
+  width: 100%;
+  padding: 50px 10%;
+}
+.giftt .store {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.giftt .store .blogg {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.giftt .store .blogg h1 {
+  color: white;
+  font-size: 25px;
+}
+.giftt .store .blogg span {
+  color: white;
+  font-family: serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.giftt .store .esas {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 40px;
+}
+.giftt .store .esas li {
+  color: white;
+  font-size: 16px;
+}
+.giftt .footerHr {
+  margin: 40px 0;
+}
+.giftt .terms {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.giftt .terms .copyRight {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  color: white;
+}
+.giftt .terms .copyRight p {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.giftt .terms .footerIcon {
+  width: 10%;
+  height: 24px;
+}
+.giftt .terms .footerIcon ul {
+  display: flex;
+  gap: 20%;
+}
+.giftt .terms .footerIcon ul li {
+  list-style: none;
+}
+.giftt .terms .footerIcon ul li a {
+  color: white;
+}
+
+/*# sourceMappingURL=ourblok.css.map */

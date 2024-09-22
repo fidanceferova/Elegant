@@ -1,0 +1,390 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.elegant {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 3px;
+}
+.elegant .logo {
+  color: #000;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  padding: 20px;
+}
+.elegant .shop {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  height: 65px;
+}
+.elegant .shop .shops {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-left: 20%;
+  list-style: none;
+}
+
+.icone {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.icone .nabr {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  color: #F3F5F7;
+}
+
+.homese {
+  width: 100%;
+  height: 1400px;
+  padding: 16px, 160px, 80px, 160px;
+  background: #FFFFFF;
+}
+.homese .believe {
+  width: 85%;
+  height: 320px;
+  margin: auto;
+  margin-top: 20px;
+}
+.homese .believe .contactus {
+  width: 80%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.homese .believe .contactus a {
+  text-decoration: none;
+}
+.homese .believe .contactus p {
+  color: #000;
+}
+
+.about {
+  width: 60%;
+  margin-top: 10px;
+}
+.about h1 {
+  font-family: Poppins;
+  font-size: 40px;
+}
+
+.featureses {
+  margin-top: 10px;
+}
+.featureses h4 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.vietnam {
+  width: 85%;
+  height: 350px;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+}
+.vietnam .foto-imge img {
+  width: 100%;
+  height: 345px;
+}
+.vietnam .since {
+  background-color: #F3F5F7;
+  width: 60%;
+  height: 345px;
+}
+.vietnam .suports {
+  margin: auto;
+  margin-left: 60px;
+  margin-top: 20%;
+  width: 60%;
+  height: 50%;
+}
+.vietnam .suports p {
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: -0.400000006px;
+  text-align: left;
+  color: #000;
+}
+.vietnam .suports h4 {
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  margin-top: 10px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.vietnam .Sohopes {
+  margin-top: 10px;
+}
+.vietnam .Sohopes a {
+  color: #000;
+}
+.vietnam .Sohopes i {
+  align-items: center;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.export {
+  width: 85%;
+  margin: auto;
+  margin-top: 20px;
+}
+.export h1 {
+  margin: auto;
+  width: 20%;
+  height: 35px;
+}
+
+.not {
+  width: 85%;
+  height: 8%;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  gap: 40px;
+}
+
+.poct {
+  width: 35%;
+  height: 100%;
+  background: #F3F5F7;
+  align-items: center;
+}
+
+.minh {
+  margin-left: 42%;
+  margin-top: 10px;
+  width: 30px;
+}
+
+.hai {
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 10px;
+}
+.hai h4 {
+  margin-left: 30%;
+  width: 30%;
+}
+
+.Rosvaks {
+  text-align: center;
+}
+.Rosvaks span {
+  color: #000;
+}
+
+.mesages {
+  width: 85%;
+  height: 380px;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  gap: 20px;
+}
+
+.birinci {
+  width: 50%;
+}
+
+.baths input {
+  width: 100%;
+  height: 40px;
+  width: 100%;
+  height: 40px;
+  padding: 0px, 16px, 0px, 16px;
+  border-radius: 6px;
+}
+
+input {
+  width: 100%;
+  height: 40px;
+  padding: 0px, 16px, 0px, 16px;
+  border-radius: 6px;
+}
+
+.bathe input {
+  width: 100%;
+  height: 40px;
+  padding: 0px, 16px, 0px, 16px;
+  border-radius: 6px;
+  height: 120px;
+}
+
+button {
+  background: #141718;
+  width: 50%;
+  height: 40px;
+  padding: 6px, 40px, 6px, 40px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+button p {
+  color: white;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.400000006px;
+  text-align: center;
+}
+
+.ikinci {
+  width: 50%;
+}
+
+.order {
+  width: 100%;
+  height: 250px;
+  gap: 20px;
+  display: flex;
+  background: #F3F5F7;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.order .above {
+  display: flex;
+  padding: 48px 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 20%;
+  background: var(--neutral-02100, #F3F5F7);
+}
+.order .above .above svg {
+  width: 48px;
+  height: 48px;
+}
+.order .above .above svg .above h6 {
+  color: var(--neutral-07100, #141718);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+.order .above .above svg .above h6 .above span {
+  color: var(--neutral-04100, #6C7275);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.giftt {
+  background-color: #000;
+  width: 100%;
+  padding: 50px 10%;
+}
+.giftt .store {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.giftt .store .blogg {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.giftt .store .blogg h1 {
+  color: white;
+  font-size: 25px;
+}
+.giftt .store .blogg span {
+  color: white;
+  font-family: serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.giftt .store .esas {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 40px;
+}
+.giftt .store .esas li {
+  color: white;
+  font-size: 16px;
+}
+.giftt .footerHr {
+  margin: 40px 0;
+}
+.giftt .terms {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.giftt .terms .copyRight {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  color: white;
+}
+.giftt .terms .copyRight p {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.giftt .terms .footerIcon {
+  width: 10%;
+  height: 24px;
+}
+.giftt .terms .footerIcon ul {
+  display: flex;
+  gap: 20%;
+}
+.giftt .terms .footerIcon ul li {
+  list-style: none;
+}
+.giftt .terms .footerIcon ul li a {
+  color: white;
+}
+
+@media screen and (max-width: 550px) {
+  .container .elegant .shop ul {
+    display: none;
+  }
+  .container .elegant .icone .fa-user,
+  .container .elegant .icone .fa-magnifying-glass {
+    display: none;
+  }
+  .homese .about {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=contact.scc.map */

@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome Links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Font Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="./css/homepage.css">
+    <!-- Title Links -->
+    <title>3legant</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header class="elegant">
+            <div class="logo">
+                <a href=""><i class="fa-solid fa-bars"></i> </a>
+                <h3>3legant.</h3>
+            </div>
+            <div class="shop">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Shop</a></li>
+                    <li><a href="">Product</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="icone">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-regular fa-user"></i>
+                <i class="fa-solid fa-bag-shopping"></i>
+                <div class="nabr">
+                    2
+                </div>
+            </div>
+    </div>
+    </header>
+    <div class="slider" id="slider">
+        <div class="list">
+            <div class="item">
+                <div class="img" style="background-image: url(/img/living-room-1835923_1280.jpg);"></div>
+            </div>
+            <div class="item">
+                <div class="img" style="background-image: url(/img/istockphoto-1197306665-612x612.jpg);"></div>
+            </div>
+            <div class="item">
+                <div class="img" style="background-image: url(/img/istockphoto-1448622633-1024x1024.jpg);"></div>
+            </div>
+            <div class="item">
+                <div class="img" style="background-image: url(/img/wall-416060_1280.jpg);"></div>
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="back"><i class="fa-solid fa-arrow-left"></i></button>
+            <button id="next"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <ul class="dots">
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <!-- Banner Start -->
+    <section class="banner">
+        <div class="ban_left">
+            <div class="ban_content">
+                <h1>Living Room</h1>
+                <a href="./update.html">Shop Now
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+            <img src="/img/ce147d8554c2cda7530244569e9d8515.jpg">
+        </div>
+        <div class="ban_right">
+            <div class="ban_up">
+                <div class="ban_content">
+                    <h1>Bedroom</h1>
+                    <a href="./update.html">Shop Now
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+                <img src="/img/skaf.jpeg">
+            </div>
+            <div class="ban_down">
+                <div class="ban_content">
+                    <h1>Kitchen</h1>
+                    <a href="./update.html">Shop Now
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+                <img src="/img/3eeb4bae1ece56d9ba8a20ca64ab2791.jpg">
+            </div>
+        </div>
+    </section>
+    <!-- Banner End -->
+    <!-- Carousel Start -->
+    <section class="carousel">
+        <div class="carousel_info">
+            <h1>New<br>Arrivals</h1>
+            <a href="./update.html">More Products<i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="carousel_cards" id="carouselCards">
+            <div class="card" draggable="false">
+                <div class="card_up">
+                    <div class="card_up_info">
+                        <div class="card_up_text">
+                            <h1>NEW</h1>
+                            <p>-50%</p>
+                        </div>
+                        <div class="heart visibleHeart" onclick="red(0)">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="img" onclick="toogleEventVisible(0)"><img draggable="false" style="width: 220px;"
+                            src="/img/33f1e0c5a7b0e2f947e18bbaa1f98631.jpg" alt=""></div>
+                    <button class="add_cart visibleButton">Add do cart</button>
+                </div>
+                <div class="card_down">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <a href="#">Loveseat Sofa</a>
+                    <p>$199.00<span>$400.00</span></p>
+                </div>
+            </div>
+            <div class="card" draggable="false">
+                <div class="card_up">
+                    <div class="card_up_info">
+                        <div class="card_up_text">
+                            <h1>NEW</h1>
+                            <p>-50%</p>
+                        </div>
+                        <div class="heart visibleHeart" onclick="red(1)">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="img" onclick="toogleEventVisible(1)"><img draggable="false"
+                            src="/img/fa00ebebad3df271f7911cf7595d715e.jpg" alt=""></div>
+                    <button class="add_cart visibleButton">Add do cart</button>
+                </div>
+                <div class="card_down">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <a href="#">Table Lamp</a>
+                    <p>$24.99</p>
+                </div>
+            </div>
+            <div class="card" draggable="false">
+                <div class="card_up">
+                    <div class="card_up_info">
+                        <div class="card_up_text">
+                            <h1>NEW</h1>
+                            <p>-50%</p>
+                        </div>
+                        <div class="heart visibleHeart" onclick="red(2)">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="img" onclick="toogleEventVisible(2)"><img draggable="false"
+                            src="/img/3eeb4bae1ece56d9ba8a20ca64ab2791.jpg" alt=""></div>
+                    <button class="add_cart visibleButton">Add do cart</button>
+                </div>
+                <div class="card_down">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <a href="#">Beige Table Lamp</a>
+                    <p>$24.99</p>
+                </div>
+            </div>
+            <div class="card" draggable="false">
+                <div class="card_up">
+                    <div class="card_up_info">
+                        <div class="card_up_text">
+                            <h1>NEW</h1>
+                            <p>-50%</p>
+                        </div>
+                        <div class="heart visibleHeart" onclick="red(3)">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="img" onclick="toogleEventVisible(3)"><img draggable="false"
+                            src="/img/069a0857fe7da4976ba73bf5db64a055.jpg" alt=""></div>
+                    <button class="add_cart visibleButton">Add do cart</button>
+                </div>
+                <div class="card_down">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <a href="#">Bamboo Basket</a>
+                    <p>$24.99</p>
+                </div>
+            </div>
+            <div class="card" draggable="false">
+                <div class="card_up">
+                    <div class="card_up_info">
+                        <div class="card_up_text">
+                            <h1>NEW</h1>
+                            <p>-50%</p>
+                        </div>
+                        <div class="heart visibleHeart" onclick="red(4)">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="img" onclick="toogleEventVisible(4)"><img draggable="false"
+                            src="/img/09e9f258591ca60c51fbb83b2fe3c83b.jpg" alt=""></div>
+                    <button class="add_cart visibleButton">Add do cart</button>
+                </div>
+                <div class="card_down">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <a href="#">Toasted</a>
+                    <p>$224.99</p>
+                </div>
+            </div>
+            <div class="card" draggable="false">
+                <div class="card_up">
+                    <div class="card_up_info">
+                        <div class="card_up_text">
+                            <h1>NEW</h1>
+                            <p>-50%</p>
+                        </div>
+                        <div class="heart visibleHeart" onclick="red(5)">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="img" onclick="toogleEventVisible(5)">
+                        <img draggable="false" src="/img/05e25d33e7c01e207fe2c1296c7fa050.jpeg" style="width: 160px;">
+                    </div>
+                    <button class="add_cart visibleButton">Add do cart</button>
+                </div>
+                <div class="card_down">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <a href="#">Luxury Chair</a>
+                    <p>$99.99 <span>$350.00</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Carousel End -->
+    <section class="free">
+        <div class="blos">
+            <div class="above">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                    <path
+                        d="M28 38V14M28 38H32M28 38H18M28 14C28 9.58172 24.4183 6 20 6H12C7.58172 6 4 9.58172 4 14V30C4 33.7304 6.55333 36.8645 10.0077 37.7499M28 14H34.4182C35.4344 14 36.4126 14.3868 37.154 15.0819L42.7358 20.3148C43.5424 21.071 44 22.1273 44 23.2329V34C44 36.2091 42.2091 38 40 38M40 38C40 40.2091 38.2091 42 36 42C33.7909 42 32 40.2091 32 38M40 38C40 35.7909 38.2091 34 36 34C33.7909 34 32 35.7909 32 38M18 38C18 40.2091 16.2091 42 14 42C11.7909 42 10 40.2091 10 38C10 37.916 10.0026 37.8326 10.0077 37.7499M18 38C18 35.7909 16.2091 34 14 34C11.8748 34 10.1368 35.6573 10.0077 37.7499"
+                        stroke="#141718" stroke-width="2.5" />
+                    <path d="M20 16H16" stroke="#141718" stroke-width="2.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M20 24H12" stroke="#141718" stroke-width="2.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+                <h6>Free Shipping</h6>
+                <p>Order above $200</p>
+            </div>
+            <div class="above">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                    <rect x="4" y="8" width="40" height="32" rx="4" stroke="#141718" stroke-width="2.5" />
+                    <circle cx="4" cy="4" r="4" transform="matrix(1 0 0 -1 20 28)" stroke="#141718"
+                        stroke-width="2.5" />
+                    <circle cx="2" cy="2" r="2" transform="matrix(1 0 0 -1 34 26)" fill="#141718" />
+                    <circle cx="2" cy="2" r="2" transform="matrix(1 0 0 -1 10 26)" fill="#141718" />
+                </svg>
+                <p>Money-back</p>
+                <span>30 days guarantee</span>
+            </div>
+            <div class="above">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                    <path
+                        d="M32 16H16M32 16C36.4183 16 40 19.5817 40 24V36C40 40.4183 36.4183 44 32 44H16C11.5817 44 8 40.4183 8 36V24C8 19.5817 11.5817 16 16 16M32 16V12C32 7.58172 28.4183 4 24 4C19.5817 4 16 7.58172 16 12V16M24 32V28"
+                        stroke="#141718" stroke-width="2.5" stroke-linecap="round" />
+                </svg>
+                <p>Secure Payments</p>
+                <span>Secured by Stripe</span>
+            </div>
+            <div class="above">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                    <path
+                        d="M42 38V34.7081C42 33.0725 41.0042 31.6017 39.4856 30.9942L35.4173 29.3669C33.4857 28.5943 31.2844 29.4312 30.354 31.292L30 32C30 32 25 31 21 27C17 23 16 18 16 18L16.708 17.646C18.5688 16.7156 19.4057 14.5143 18.6331 12.5827L17.0058 8.51444C16.3983 6.99581 14.9275 6 13.2919 6H10C7.79086 6 6 7.79086 6 10C6 27.6731 20.3269 42 38 42C40.2091 42 42 40.2091 42 38Z"
+                        stroke="#141718" stroke-width="2.5" stroke-linejoin="round" />
+                </svg>
+                <p>24/7 Support</p>
+                <span>Phone and Email support</span>
+            </div>
+        </div>
+    </section>
+    <!-- order end  -->
+    <!-- retro start  -->
+    <section class="vietnam">
+        <!-- <div class="vietnam"> -->
+        <div class="foto-imge">
+            <img src="/img/Paste image (2).png" alt="">
+        </div>
+        <div class="since">
+            <div class="suportse">
+                <div class="yazim">
+                    <h6>SALE UP TO 35% OFF</h6>
+                    <p>HUNDREDS of
+                        New lower prices!</p>
+                    <h4>It’s more affordable than ever to give every room in your home a stylish makeover</h4>
+                </div>
+                <div class="Sohopes">
+                    <a href="#">Shop Now</a><i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+        </div>
+        <!-- </div> -->
+    </section>
+    <!-- retro end  -->
+
+    <section class="articles">
+        <div class="more">
+            <div class="decor">
+                <h1>Articles</h1>
+                <a href="">More Articles <i class="fa-solid fa-arrow-right"></i> </a>
+            </div>
+            <div class="ways">
+                <div class="your">
+                    <img src="/img/img (1).png" alt="">
+                    <p>7 ways to decor your home</p>
+                    <a href="">More Articles <i class="fa-solid fa-arrow-right"></i> </a>
+                </div>
+                <div class="your">
+                    <img src="/img/img.png" alt="">
+                    <p>Kitchen organization</p>
+                    <a href="">More Articles<i class="fa-solid fa-arrow-right"></i> </a>
+                </div>
+                <div class="your">
+                    <img src="/img/img (2).png" alt="">
+                    <p>Decor your bedroom</p>
+                    <a href="">More Articles<i class="fa-solid fa-arrow-right"></i> </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- join start  -->
+    <section class="join">
+        <div class="our">
+            <div class="emailes">
+                <h1>Join Our Newsletter</h1>
+                <h5>Sign up for deals, new products and promotions</h5>
+                <div class="signs">
+                    <div class="logine">
+                        <i class="fa-regular fa-envelope"></i> <input type="email " placeholder="Email address" />
+                        <p>signup</p>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- join end -->
+
+    <!-- footer start  -->
+    <footer class="giftt">
+        <div class="store">
+            <div class="blogg">
+                <h1>3legant</h1>
+                <span class="lern"></span>
+                <span>Gift & ekoretion Store</span>
+            </div>
+            <ul class="esas">
+                <li>Home</li>
+                <li>Shop</li>
+                <li>Product</li>
+                <li>Blog</li>
+                <li>Contact Us</li>
+            </ul>
+        </div>
+
+        <hr class="footerHr">
+
+        <div class="terms">
+            <div class="copyRight">
+                <p>Copyright © 2023 3legant. All rights reserved</p>
+                <p>Privy policy</p>
+                <p>Treams of polise</p>
+            </div>
+            <div class="footerIcon">
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"> <i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="#"> <i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </footer>
+    <!-- footer end  -->
+
+    </div>
+
+    <script src="/js/homepage.js"></script>
+</body>
+
+</html>

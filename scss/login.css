@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+}
+.container .upses {
+  width: 50%;
+  background: #F3F5F7;
+  background-image: url(/img/Pasteimage.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.container .upses h3 {
+  margin-top: 20px;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+}
+.container .have {
+  display: flex;
+  flex-direction: column;
+  padding: 96px 70px;
+  width: 40%;
+}
+.container .have p {
+  color: #6C7275;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.container .have p a {
+  color: greenyellow;
+}
+.container .have h1 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: -0.400000006px;
+  text-align: left;
+  margin-bottom: 12px;
+}
+.container .have form {
+  width: 100%;
+}
+.container .have form .login {
+  border-bottom: 1px solid gray;
+  display: flex;
+  align-items: center;
+}
+.container .have form .login input {
+  border-bottom: 1px solid gray;
+  outline: none;
+  border: none;
+  margin-top: 10px;
+  width: 100%;
+  height: 30px;
+}
+.container .have form .login i {
+  display: block;
+  font-size: 15px;
+  color: gray;
+  padding-top: 10px;
+}
+.container .have .tik {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+.container .have .tik input {
+  width: 20px;
+  height: 20px;
+  accent-color: rgb(247, 67, 97);
+}
+.container .have .tik label {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.container .have .tik label span {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.container .have button {
+  margin-top: 20px;
+  height: 44px;
+  width: 100%;
+  background-color: #141718;
+  color: #fff;
+  border-radius: 8px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.400000006px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .container .upses {
+    width: 100%;
+    height: 500px;
+  }
+  .container .have {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .container .have {
+    width: 50%;
+  }
+}/*# sourceMappingURL=login.css.map */

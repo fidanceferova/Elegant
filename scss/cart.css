@@ -1,0 +1,507 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.elegant {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 3px;
+}
+.elegant .logo {
+  color: #000;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  padding: 20px;
+}
+.elegant .shop {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  height: 65px;
+}
+.elegant .shop .shops {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin: auto;
+  list-style: none;
+  width: 80%;
+}
+.elegant .icone {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.elegant .icone .nabr {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  color: #F3F5F7;
+}
+
+.Shopping {
+  width: 100%;
+  height: 985px;
+  background: #FFFFFF;
+}
+.Shopping .cart {
+  width: 40%;
+  height: 20%;
+  margin: auto;
+  margin-top: 30px;
+}
+.Shopping .cart .orders {
+  width: 117px;
+  height: 50px;
+  margin: auto;
+  margin-top: 20px;
+}
+.Shopping .cart .orders h1 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 50px;
+  margin-left: 10px;
+}
+.Shopping .cart .Checkout {
+  width: 100%;
+  height: 40px;
+  gap: 32px;
+  display: flex;
+  margin: auto;
+  margin-top: 20px;
+}
+.Shopping .cart .Checkout #line {
+  border-bottom: 2px solid black;
+}
+.Shopping .cart .Checkout #line p {
+  color: black;
+}
+.Shopping .cart .Checkout .sss {
+  width: 30%;
+  display: flex;
+  gap: 5px;
+}
+.Shopping .cart .Checkout .sss .nabrr {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  color: #F3F5F7;
+}
+.Shopping .cart .Checkout .nabrrr {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  height: 30px;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+  width: 30px;
+  color: #F3F5F7;
+}
+.Shopping .producte {
+  width: 80%;
+  height: 620px;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  border: 2px solid green;
+}
+.Shopping .producte .price {
+  width: 60%;
+  margin-left: 20px;
+}
+.Shopping .producte .price .subtotal {
+  width: 100%;
+  height: 30px;
+  padding: 0px, 0px, 24px, 0px;
+  border: 0px, 0px, 1px, 0px;
+  justify-content: space-between;
+  margin-top: 20px;
+  display: flex;
+}
+.Shopping .producte .price .subtotal p {
+  width: 30%;
+  height: 26px;
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  display: flex;
+}
+.Shopping .producte .price .subtotal ul {
+  display: flex;
+  width: 50%;
+  height: 26px;
+  justify-content: space-between;
+  color: #000;
+}
+.Shopping .producte .price .subtotal ul li {
+  list-style: none;
+  font-family: Inter;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #000;
+}
+.Shopping .producte .price .tray {
+  border: 2px solid hotpink;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 30px;
+  display: flex;
+}
+.Shopping .producte .price .tray .fotoraf {
+  width: 50%;
+  height: 95px;
+  gap: 10px;
+  display: flex;
+  border: 2px solid slateblue;
+}
+.Shopping .producte .price .tray .fotoraf img {
+  color: grey;
+  align-items: center;
+}
+.Shopping .producte .price .tray .fotoraf .table {
+  width: 60%;
+}
+.Shopping .producte .price .tray .fotoraf .table p {
+  margin-top: 5px;
+}
+.Shopping .producte .summary {
+  width: 40%;
+  height: 79%;
+  margin-left: 30px;
+  border: 1px solid black;
+  margin-top: 20px;
+}
+.Shopping .producte .summary .free {
+  width: 90%;
+  height: 28px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.logoo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  border: 2px solid red;
+}
+.logoo .button {
+  width: 30%;
+}
+.logoo .button input {
+  width: 40%;
+}
+.logoo .Price {
+  align-items: center;
+  display: flex;
+}
+
+.shipping {
+  width: 95%;
+  height: 73%;
+  margin-left: 20px;
+}
+
+.fres {
+  border: 1px solid black;
+  width: 93%;
+  height: 52px;
+  padding: 13px, 16px, 13px, 16px;
+  border-radius: 4px;
+  gap: 395px;
+  justify-content: space-between;
+  display: flex;
+  margin-left: 10px;
+  margin-top: 20px;
+  background: #F3F5F7;
+}
+
+.fontses {
+  width: 90%;
+  height: 30px;
+  margin-left: 10px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+input {
+  height: 15px;
+  accent-color: black;
+}
+
+label {
+  width: 100%;
+}
+
+.nanos {
+  width: 40%;
+}
+.nanos p {
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.buto {
+  gap: 50px;
+  margin-left: 100px;
+}
+
+.sumarye {
+  width: 93%;
+  height: 52px;
+  padding: 13px, 0px, 13px, 0px;
+  margin-left: 10px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sumarye p {
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.sumarye p h3 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: right;
+}
+
+.Checkoute {
+  width: 95%;
+  height: 45px;
+  border-radius: 8px;
+  background-color: #000;
+  margin-top: 25px;
+}
+.Checkoute p {
+  color: white;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: -0.400000006px;
+  text-align: center;
+}
+
+.Havese {
+  width: 30%;
+  height: 130px;
+  margin-left: 30px;
+  margin-left: 10%;
+}
+.Havese h3 {
+  margin-top: 10px;
+  font-family: Poppins;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.Havese h4 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.tickent {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  height: 40px;
+  margin-top: 10px;
+}
+.tickent i {
+  margin-left: 10px;
+}
+.tickent p {
+  margin-left: 10px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.400000006px;
+  text-align: left;
+}
+.tickent h6 {
+  margin-left: 50%;
+}
+
+.giftt {
+  background-color: #000;
+  width: 100%;
+  padding: 50px 10%;
+  margin-top: 20px;
+}
+.giftt .store {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.giftt .store .blogg {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.giftt .store .blogg h1 {
+  color: white;
+  font-size: 25px;
+}
+.giftt .store .blogg span {
+  color: white;
+  font-family: serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.giftt .store .esas {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 10px;
+}
+.giftt .store .esas li {
+  color: white;
+  font-size: 16px;
+}
+.giftt .footerHr {
+  margin: 40px 0;
+}
+.giftt .terms {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.giftt .terms .copyRight {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.giftt .terms .copyRight p {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  color: white;
+}
+.giftt .terms .footerIcon {
+  width: 10%;
+  height: 24px;
+}
+.giftt .terms .footerIcon ul {
+  display: flex;
+  gap: 20%;
+}
+.giftt .terms .footerIcon ul li {
+  list-style: none;
+}
+.giftt .terms .footerIcon ul li a {
+  color: white;
+}
+
+@media screen and (max-width: 550px) {
+  .elegant .shop ul {
+    display: none;
+  }
+  .elegant .icone .fa-user,
+  .elegant .icone .fa-magnifying-glass {
+    display: none;
+  }
+  .giftt .store {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+  .giftt .store .blogg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  .giftt .store .blogg .lern {
+    width: 30px;
+    height: 2px;
+    background-color: #fff;
+  }
+  .giftt .store .esas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+  }
+  .giftt .footerHr {
+    margin: 40px 0;
+  }
+  .giftt .terms {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin: auto;
+    gap: 20px;
+  }
+  .giftt .terms .copyRight {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: auto;
+    gap: 15px;
+  }
+  .giftt .terms .copyRight p {
+    font-size: 12px;
+  }
+  .giftt .terms .footerIcon {
+    width: 10%;
+    height: 24px;
+    margin: auto;
+  }
+  .giftt .terms .footerIcon ul {
+    margin: auto;
+    display: flex;
+    gap: 20%;
+  }
+}/*# sourceMappingURL=cart.css.map */
